@@ -25,9 +25,10 @@ if(results.lenght >0){
 }
 }
 function draw() {
-background("969A97")
-document.getElementById("square_side").innerHTML = "Largura e Altura serão =" + difference + "px"
-fill("#F90093")
-stroke("#F90093")
-square(noseX, noseY, difference)
-}
+    background('#969A97');
+    
+      document.getElementById("square_side").innerHTML = "Largura e altura serão = " + difference +"px";
+      fill('#F90093');
+      stroke('#F90093');
+      square(noseX, noseY, difference);
+    }
